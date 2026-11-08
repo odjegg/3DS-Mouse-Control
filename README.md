@@ -1,4 +1,4 @@
-# 3DS-Mac-Control
+# 3DS-Mouse-Control
 An application allowing you to control your Mac/Linux/Windows PC's mouse through your 3DS as long as both devices are on the same Wi-Fi connection.
 
 To set up, you first need to clone the repository and change the IP in `source/main.c` to your PC's local IP address. 

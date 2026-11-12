@@ -14,12 +14,14 @@ make
 ```
 
 **Running**
-Run client.py in a terminal window 
+Move `3DS-Mouse-Control.3dsx` to `~/3ds/` on your SD card and run 3DS-Mouse-Control in the homebrew app.
+Then run client.py in a terminal window on your pc
 ```
 cd 3DS-Mouse-Control
 python3 client.py
 ```
 
+**Current Development**
 I'm currently working on developing a GUI for the program on the 3DS side to allow inputting an IP address inside the application itself, removing the need to compile the program yourself to change it.
 
 Small demonstration: https://youtu.be/FoayD1Gaq6Q?si=7NgX9qDGsHmXk-E8

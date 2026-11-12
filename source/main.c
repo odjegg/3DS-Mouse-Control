@@ -12,7 +12,7 @@
 
 
 // The IP and Port of the computer hosting the server
-#define SERVER_IP "192.168.1.204" // REPLACE WITH YOUR PC'S LOCAL IP!!
+#define SERVER_IP "192.168.xxx.xxx" // REPLACE WITH YOUR PC'S LOCAL IP!!
 #define SERVER_PORT 5000
 // Creating buffer to reserve memory for networking
 #define SOC_ALIGN 0x1000 // 4096 byte alignment
@@ -135,7 +135,7 @@ int main(int argc, char **argv) {
 
 		SOCU_GetIPInfo(&ip, &netmask, &broadcast);
 
-		printf("\x1b[1;0H3DS Mac Control v0.1.3 - made by odjegg");
+		printf("\x1b[1;0H3DS Mouse Control v0.1.4 - made by odjegg");
 		printf("\x1b[2;0HIP: %s", inet_ntoa(ip));
 		printf("\x1b[3;0HPress START to exit");
 

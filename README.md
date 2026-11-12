@@ -3,6 +3,7 @@ An application allowing you to control your Mac/Linux/Windows PC's mouse through
 
 **Prerequisites:**
 [Python 3](https://www.python.org/downloads/)
+[Pynput](https://pypi.org/project/pynput/) `pip install pynput`
 [devkitPro](https://devkitpro.org/wiki/Getting_Started) with 3DS tools (3ds-dev) 
 
 **Building**

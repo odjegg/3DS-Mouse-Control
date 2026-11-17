@@ -22,7 +22,12 @@ cd 3DS-Mouse-Control
 python3 client.py
 ```
 
-**Current Development**  
-I'm currently working on developing a GUI for the program on the 3DS side to allow inputting an IP address inside the application itself, removing the need to compile the program yourself to change it.  
+Small demonstration: https://youtu.be/FoayD1Gaq6Q?si=7NgX9qDGsHmXk-E8 
 
-Small demonstration: https://youtu.be/FoayD1Gaq6Q?si=7NgX9qDGsHmXk-E8  
+**Current Development**  
+I'm currently working on developing a GUI for the program on the 3DS side to allow inputting an IP address inside the application itself, removing the need to compile the program yourself to change it. 
+I'm also working on a controller mode to let the 3ds work for PC games which use WASD and mouse movement.
+
+**Future Plans**
+I want to allow for using the 3DS as a proper controller in games but this will require an Apple Developer account.
+I may add support for using the 3DS as a proper controller on Windows and Linux in the future.
